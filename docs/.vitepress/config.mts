@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Splattr docs",
   description: "The official documentation of splattr.app",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     logo: "/logo_compressed.png",
 
@@ -39,5 +40,4 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/Splattr-app/docs" },
     ],
   },
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 });
