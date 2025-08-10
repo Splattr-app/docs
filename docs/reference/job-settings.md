@@ -1,6 +1,10 @@
 # Job Settings Reference
 
-This page explains every option available on the "Create your first splat" page.
+This page explains every option available when creating a new project.
+
+::: tip For Advanced Users
+If you have already processed your data with a tool like COLMAP or Nerfstudio, please see our **[Guide to Using Pre-processed Data](../guide/preprocessed-data.md)** to learn how to skip the data processing stage.
+:::
 
 ## Data & Pre-processing
 

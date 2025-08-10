@@ -21,6 +21,10 @@ export default defineConfig({
           items: [
             { text: "Getting Started", link: "/guide/getting-started" },
             { text: "Capture Best Practices", link: "/guide/capture-guide" },
+            {
+              text: "Using Pre-processed Data",
+              link: "/guide/preprocessed-data",
+            },
             { text: "Sharing & Collaboration", link: "/guide/collaboration" },
           ],
         },
