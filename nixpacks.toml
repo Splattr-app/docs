@@ -1,0 +1,15 @@
+# nixpacks.toml
+# Configuration for building the Splattr VitePress documentation site.
+
+[phases.setup]
+nixPkgs = ['nodejs_20']
+packages = ['pnpm']
+
+[phases.install]
+cmd = "pnpm install --frozen-lockfile"
+
+[phases.build]
+cmd = "pnpm run docs:build"
+
+[start]
+cmd = "npx serve docs/.vitepress/dist -s"
