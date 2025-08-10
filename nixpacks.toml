@@ -6,10 +6,15 @@ nixPkgs = ['nodejs_20']
 packages = ['pnpm']
 
 [phases.install]
-cmds = ['npm install -g corepack', 'corepack enable', 'corepack prepare pnpm@latest --activate', 'pnpm install']
+cmds = [
+  'npm install -g corepack',
+  'corepack enable',
+  'corepack prepare pnpm@latest --activate',
+  'pnpm install'
+]
 
 [phases.build]
-cmd = "pnpm run docs:build"
+cmd = 'pnpm run docs:build'
 
 [start]
-cmd = "npx serve docs/.vitepress/dist -s"
+cmd = "npx serve docs/.vitepress/dist -s -l $PORT"
