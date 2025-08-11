@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://docs.splattr.app/sitemap.xml
+
+

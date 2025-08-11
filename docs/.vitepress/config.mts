@@ -5,6 +5,9 @@ export default defineConfig({
   title: "Splattr docs",
   description: "The official documentation of splattr.app",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  sitemap: {
+    hostname: "https://docs.splattr.app",
+  },
   themeConfig: {
     logo: "/logo_compressed.png",
 
