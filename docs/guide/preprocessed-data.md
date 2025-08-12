@@ -3,6 +3,7 @@
 For advanced users who have already processed their images to calculate camera poses, Splattr offers a "Pre-processed" project type. This workflow allows you to skip our data processing stage entirely, saving both (a lot of) time and credits.
 
 ## The "NeRF Studio" Format
+<small>Please see https://docs.nerf.studio/quickstart/data_conventions.html</small>
 
 Splattr is compatible with the standard dataset format used by many popular tools, including Nerfstudio, Kiri Engine, Polycam, Luma AI, and raw COLMAP outputs.
 
