@@ -25,7 +25,7 @@ features:
   - title: Settings Reference
     icon: ⚙️
     details: A deep dive into every training method, parameter, and option available on the platform.
-    link: /reference/job-settings
+    link: /reference/job-configuration
   - title: FAQ & Troubleshooting
     icon: ❓
     details: Get answers to common questions and solve problems with your captures and results.

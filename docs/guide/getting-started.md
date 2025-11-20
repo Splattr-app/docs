@@ -1,15 +1,26 @@
-# Getting Started: Your First Splat
+# Getting Started
 
-This guide will walk you through creating your first project in under 5 minutes.
+Welcome to Splattr! This guide will walk you through creating your first project using our new, streamlined workflow.
 
-1.  **Click "New Splat":** From your dashboard, click the "New Splat" button. Give your project a name.
-2.  **Upload Your Media:** Drag and drop your video file(s) or a folder of images directly onto the upload area. For pre-processed projects, upload your ZIP file.
-3.  **Configure Your Job:** For your first time, the default settings are a great place to start! You can leave everything as-is.
-4.  **Calculate Cost & Start:** Our calculator will show you the exact credit cost. If you have enough credits, you can start the job.
-5.  **Wait for Processing:** Your job will be sent to our GPU cloud. You can close the window; we'll notify you when it's complete.
-6.  **View & Explore:** Once finished, your new splat will appear on your dashboard. Click to open it in our interactive 3D viewer.
+### 1. Select Your Input Type
 
-    - **Orbit Mode (Default):** Use your mouse or touch to rotate around the splat.
-    - **First-Person Mode:** Use `WASD` or arrow keys to "walk" through your scene like in a video game. The viewer also supports gamepads.
+The first step is to tell Splattr what kind of data you're starting with. You can choose between raw media (Photos or Videos) or a pre-aligned dataset.
 
-7.  **Share Your Work:** Want to show it off? Click the "Settings" icon in the viewer to find the **[Public Sharing & Collaboration](./collaboration.md)** options.
+- **[Learn more about Input Types](./input-types.md)**
+
+### 2. Upload Your Files
+
+Drag and drop your files. You can also import from previous uploads or connect a cloud storage account like Google Drive or Dropbox.
+Please note that you can use previous uploads only if you those past media were uploaded to Splattr and not other cloud storage services.
+
+### 3. Configure Your Job
+
+This is where the magic happens. You have two paths:
+
+- **Smart Setup (Recommended for Beginners):** Click the "Smart setup" button. Our guided wizard will ask you a few simple questions about your project and automatically choose the best settings for you. This is the easiest way to get a great result. **[Learn more about Smart Setup](./smart-setup.md)**
+
+- **Manual Configuration:** For advanced users who want full control, you can dive into the detailed settings. You can configure everything from the server type to the finest details of the training process. **[See the Full Settings Reference](../reference/job-configuration.md)**
+
+### 4. Begin Processing
+
+Once you're happy with your settings, the "Processing preview" on the right will show you the cost. Click "Begin processing" to start the job. You can close the window; we'll notify you when your splat is complete!

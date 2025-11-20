@@ -13,7 +13,7 @@ export default defineConfig({
 
     nav: [
       { text: "Guide", link: "/guide/getting-started" },
-      { text: "Reference", link: "/reference/job-settings" },
+      { text: "Reference", link: "/reference/job-configuration" },
       { text: "Go to Splattr", link: "https://splattr.app" },
     ],
 
@@ -23,20 +23,19 @@ export default defineConfig({
           text: "User Guide",
           items: [
             { text: "Getting Started", link: "/guide/getting-started" },
-            { text: "Capture Best Practices", link: "/guide/capture-guide" },
-            {
-              text: "Using Pre-processed Data",
-              link: "/guide/preprocessed-data",
-            },
-            { text: "Sharing & Collaboration", link: "/guide/collaboration" },
+            { text: "Understanding Input Types", link: "/guide/input-types" },
+            { text: "Using the Smart Setup", link: "/guide/smart-setup" },
           ],
         },
       ],
       "/reference/": [
         {
-          text: "Reference",
+          text: "Job Configuration",
           items: [
-            { text: "Job Settings Explained", link: "/reference/job-settings" },
+            {
+              text: "Full Settings Reference",
+              link: "/reference/job-configuration",
+            },
           ],
         },
       ],
