@@ -9,7 +9,7 @@ This panel gives a real-time overview of your job's cost.
 - **Initial Cost:** A small, one-time credit charge for job setup. You can use cloud storage providers to set this to 0
 - **Spending Rate:** The cost in credits per minute of processing time on the selected server tier.
 - **Maximum Cost:** The maximum amount of credits you will be charged for the job. In the future the job will get paused if it exceeds this amount.
-- **Balance Required:** The total credits your account needs to start this job. This is a soft check against your balance and will deduct the amount from your balance if you have enough.
+- **Balance Required:** The total credits your account needs to start this job. This is a soft check against your balance and won't deduct the amount from your balance if you have enough.
 
 ## Quick Presets
 
